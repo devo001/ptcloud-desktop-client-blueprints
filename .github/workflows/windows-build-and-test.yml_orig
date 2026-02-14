@@ -23,7 +23,7 @@ jobs:
       - name: Clone Nextcloud Desktop Files Client
         shell: pwsh
         run: |
-          & cmd /C "git clone -q --depth=1 https://github.com/devo001/ptcloud-desktop.git ${{ env.DESKTOP_CLIENT_MASTER_LOCATION }} 2>&1"
+          & cmd /C "git clone -q --depth=1 https://github.com/nextcloud/desktop.git ${{ env.DESKTOP_CLIENT_MASTER_LOCATION }} 2>&1"
 
       - name: Install Craft Master with Nextcloud Client Deps
         shell: pwsh
