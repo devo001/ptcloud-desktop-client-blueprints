@@ -34,5 +34,4 @@ bin/qt\.conf
 bin/syncqt\.pl
 
 # strip most executables
-#bin/(?!(nextcloud|nextcloudcmd|QtWebEngineProcess)).*\.exe
-bin/(?!(ptcloud|ptcloudcmd|nextcloud|nextcloudcmd|QtWebEngineProcess)).*\.exe
+bin/(?!(nextcloud|nextcloudcmd|QtWebEngineProcess)).*\.exe
