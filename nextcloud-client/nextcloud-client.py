@@ -1,4 +1,5 @@
 import info
+import os
 from Package.CMakePackageBase import *
 
 class subinfo(info.infoclass):
